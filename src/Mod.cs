@@ -26,7 +26,7 @@ public record ModMetadata : IModMetadata
     public bool HasPrepatcher { get; init; } = false;
     public List<string> Incompatibilities { get; init; } = [];
     public string? Url { get; init; } = null;
-    public string License { get; init; } = "MIT";
+    public string License { get; init; } = "Independent integration framework";
 }
 
 // Expansion modules register their own resource assembly before trader registration is applied.
